@@ -1,0 +1,39 @@
+@import 'body';
+@import 'button';
+
+.login-container {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin: 10px 0;
+    text-align: left;
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 92%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+}
+
+

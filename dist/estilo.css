@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato:ital,wght@1,300;1,400&family=Roboto:ital,wght@0,400;1,100;1,300&family=Rubik:ital,wght@0,400;1,300&family=Signika+Negative:wght@500&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(img/fundo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1960px;
+  background-color: #8e48aa;
+  font-family: 'Signika Negative', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #c5c5c5;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.123);
+  backdrop-filter: blur(3px);
+  border-radius: 5px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+h1 {
+  margin-top: 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  margin: 10px 0;
+  text-align: left;
+}
+.input-container label {
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
+.input-container input {
+  color: #fff;
+  width: 92%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.123);
+  backdrop-filter: blur(3px);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
